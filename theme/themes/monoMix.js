@@ -21,8 +21,7 @@ colors:
 
 /* Base Background(Not visible in Phone) */
 #app{
-    background: linear-gradient(hsla(0,0%,20%,.9),hsla(0,0%,20%,.9)),
-    url(./img/bg.cbfecfa0.jpg) 
+    background: linear-gradient(hsla(0,0%,20%,.9),hsla(0,0%,20%,.9))
     !important;
 }
 /* Main Background */

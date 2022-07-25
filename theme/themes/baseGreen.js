@@ -8,6 +8,7 @@
                 style = document.createElement('style')
                 style.setAttribute('id','myStyle')
             }
+	    let bg = getComputedStyle(document.getElementById('app')).backgroundImage.split('\"')[1]
             style.innerHTML = `
 /*
 colors:
@@ -21,7 +22,8 @@ black
 
 /* Base Background(Not visible in Phone) */
 #app{
-    background: linear-gradient(hsla(0,0%,20%,.9),hsla(0,0%,20%,.9))
+    background: linear-gradient(hsla(0,0%,20%,.9),hsla(0,0%,20%,.9)),
+    url(${bg})
     !important;
 }
 /* Main Background */

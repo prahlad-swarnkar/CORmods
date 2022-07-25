@@ -22,7 +22,7 @@ colors:
 /* Base Background(Not visible in Phone) */
 #app{
     background: linear-gradient(hsla(0,0%,20%,.9),hsla(0,0%,20%,.9)),
-    url(file:///C:/Users/Prahlad/AppData/Local/Programs/myDynasty/resources/app.asar/img/bg.cbfecfa0.jpg) 
+    url(./img/bg.cbfecfa0.jpg)
     !important;
 }
 /* Main Background */
